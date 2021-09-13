@@ -43,6 +43,11 @@ string mapping[] = {"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
 
 void createOutput(int s, int cur, string output[], int n)
 {
+    
+    //create duplicates according to the number of characters in the corresponding mapping
+    //say abc has three characters so we will create two duplicates of all elements in output to add a, b and c to them
+    //now in the next nested loop we add a, b and c in the beginning of each of the three sets of elements in output to get final result
+    
     for(int i = 0; i < s; i++)
     {
         for(int j = 0; j < n;j++)
