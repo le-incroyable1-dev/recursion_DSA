@@ -1,7 +1,7 @@
 /*
 Return Keypad Code
 
-Given an integer n, using phone keypad find out all the possible strings that can be made using digits of input n.
+Given an integer n, using the "standard phone keypad" find out all the possible strings that can be made using digits of input n.
 Return empty string for numbers 0 and 1.
 
 Note :
