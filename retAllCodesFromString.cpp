@@ -38,12 +38,18 @@ void helper(string input, string output[10000], int& count, string subset)
         return;
     }
     
+    
+    /*
+    ONE RECURSIVE CALL IS DONE TAKING THE FIRST INDEX OF THE STRING AND THE OTHER BY TAKING THE FIRST TWO INDICES, BOTH RESULTING IN AN INTEGER 
+    */
     string subsetCopy = subset;
     
     int i1;
     string s1 = input.substr(0,1);
     stringstream ss1(s1);
     ss1 >> i1;
+    // store ss1 in i1 as an integer
+    
     //cout << i1 << endl;
     
     subset += ((char)(i1+96));
